@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- google font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Raleway:ital,wght@0,800;1,800&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Nav bar section -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="name"><a href="#">John Bynum's Portfolio</a></li>
+                <li class="item"><a href="#">Home</a></li>
+                <li class="item"><a href="#portfolio">Portfolio</a></li>
+                <li class="item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+        <!-- End of Nav Bar section -->
+    <Main>
+        <!--Hero Section--> 
+        <section class="hero">
+        
+            <div id="image-container">
+                <img src="/Users/johnbynum/Desktop/02-Challenge /JohnHeadshot.png" alt="John Headshot photo" class="hero-img"/>
+                 <!-- <h1 class="hero-title">Hi! My name is John Bynum <br> <span class="hero-description">This is My Portfolio</span></h1> -->
+                <div class="text-container">
+                    <h1 class="hero-title">hi, my name is john bynum</h1>
+                    <h2 class="hero-description">This is my Portfolio</h2>
+                    <p class="hero-paragraph"> I am a student in Rutger's Coding Bootcamp. The program has been great so far. </p>
+                </div>
+            </div> 
+        </section>
+        <!-- End of Hero Section-->
+
+        <!--Beginning of Portfolio Section-->
+        <section id="portfolio" class="portfolio">
+            <div class="box0">
+                <section class="Portfolio-container">
+                    <h2 class="Portfolio-title">My Portfolio</h2>
+                </section>       
+        </section>
+        
+        <section id="portfolio1" class="portfolio1">
+            <div class="box1">
+                <a href="https://github.com/iExclusive21/Challenge1" target="blank"><img src="./01-html-css-git-homework-demo.png" alt="Horiseon Image" class="float-left"></a>
+                <section class="section-container">
+                    <h2 class="section-title">Horiseon Challenge</h2>
+                    <p class="section-paragraph">
+                        My first challenge as a Rutger's Coding Bootcamp student was the Horiseon challenge.
+                    </p>
+                </section>       
+        </section>
+        <section id="portfolio2" class="portfolio2">
+            <div class="box2">
+                <img src="./mini-project.png" alt="Horiseon Image" class="float-right">
+                <section class="section-container2">
+                    <h2 class="section-title2">Mini Project</h2>
+                    <p class="section-paragraph2">
+                        We were assigned to recreate this sample website. 
+                    </p>
+                </section>       
+        </section>
+<!--Contact Heading-->
+        <section id="contact" class="contact">
+            <div class="contact-box">
+                <section class="contact-container">
+                    <h2 class="contact-title">Contact</h2>
+                </section>       
+        </section>
+
+        <!-- Contact Form Section-->
+        <div class="form-container" >
+            <form action="/action_page.php">
+                <label for="fname">Full Name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Full Name" ><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" placeholder="Email"><br><br>
+                <input type="submit" value="Submit">
+              </form> 
+        </div>
+    </Main>
+    <footer>
+        <p>Copyrights 2022 Rutger's Coding Bootcamp</p>
+    </footer>
+</body>
+</html>

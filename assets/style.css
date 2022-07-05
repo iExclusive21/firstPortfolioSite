@@ -589,6 +589,30 @@ footer {
         height: 720px;
         
      }
+      
+      .hero-paragraph{
+        margin-left: 2%;
+        margin-right: 2%;
+        }
+
+    .section-paragraph{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .section-paragraph2 {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .float-left{
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+    .float-right{
+        margin-right: 1%;
+        margin-left: 1%;
+    }
 
   }
     
@@ -657,6 +681,39 @@ footer {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+     }
+    
+    .hero-paragraph{
+        margin-left: 2%;
+        margin-right: 2%;
+        }
+
+    .section-paragraph{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .section-paragraph2 {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .float-left{
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+    .float-right{
+        margin-right: 1%;
+        margin-left: 1%;
     }
 
 
@@ -732,5 +789,28 @@ footer {
         align-items: center;
         width: 100%;
      }
+      .hero-paragraph{
+        margin-left: 2%;
+        margin-right: 2%;
+        }
+
+    .section-paragraph{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .section-paragraph2 {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .float-left{
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+    .float-right{
+        margin-right: 1%;
+        margin-left: 1%;
+    }
 
   }
